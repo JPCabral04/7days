@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('styles/cabecalho.css');
+@import url('styles/lista-de-consultas.css');
+
+:root {
+
+    --cor-de-fundo: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+    --cor-branco: #FFFFFF;
+    --cor-branco-secundario: #ECECEC;
+    --cor-azul: #4894FF;
+    --cor-amarelo: #FFB050;
+    --cor-titulos: #464646;
+    --cor-textos: #A3A3A3;
+    --fonte-principal: "Montserrat", sans-serif;
+
+}
+
+body {
+    
+    background: var(--cor-de-fundo); 
+    font-family: var(--fonte-principal);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--cor-textos);
+
+}

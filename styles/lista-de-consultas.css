@@ -1,0 +1,130 @@
+.lista {
+
+    padding: 0 1em;
+
+}
+
+.lista__titulo {
+
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    color: var(--cor-titulos);
+
+}
+
+.consultas {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-branco);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+
+}
+
+.consultas__container {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.consultas__topo {
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+
+.consultas__topo__detalhes {
+
+    display: flex;
+    gap: 1em;
+
+}
+
+.consultas__imagem {
+
+    width: 11%;
+    border-radius: 50%;
+    margin-right: 1em;
+
+}
+
+.consultas__titulo {
+
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--cor-titulos);
+
+}
+
+.chat {
+
+    margin-left: auto;
+
+}
+
+hr {
+
+    margin: 1em 0;
+    color: var(--cor-titulos);
+
+}
+
+.consultas__horario {
+
+    font-weight: 500;
+    color: var(--cor-titulos);
+
+}
+
+.consultas__botoes {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+
+}
+
+.botao-video {
+
+    background-color: var(--cor-amarelo);
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-branco);
+    border-radius: 8px;
+    font-size: 14px;
+
+}
+
+.botao-audio {
+
+    background-color: var(--cor-branco-secundario);
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-titulos);
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid #ECECEC;
+
+}
+
+.botao {
+
+    background-color: var(--cor-azul);
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-branco);
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1em;
+
+}
+
+
+
