@@ -1,0 +1,44 @@
+.rodape {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botao-flutuante {
+    position: absolute;
+    right: 10px; 
+    bottom: 60px; 
+    background-color: transparent;
+    z-index: 10; 
+}
+
+.rodape__icones {
+    background-color: var(--cor-branco);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0px -4px 8px 0px #0000000F;
+    padding: 1em 0.5em;
+    width: 100%;
+}
+
+.rodape__links {
+    text-align: center;
+    text-decoration: none;
+}
+
+.rodape__texto, .rodape__texto__azul {
+    margin-top: 0.3em;
+}
+
+.rodape__texto__azul {
+    color: var(--cor-azul);
+}
+
+.rodape__texto {
+    color: var(--cor-titulos);
+}
