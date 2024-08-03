@@ -1,11 +1,14 @@
 .lista {
-
+    
+    display: flex;
+    flex-direction: column;
     padding: 0 1em;
 
 }
 
 .lista__titulo {
 
+    padding: 0 1em;
     font-weight: 700;
     font-size: 16px;
     margin-bottom: 0.5em;
@@ -123,6 +126,16 @@ hr {
     font-size: 14px;
     text-align: center;
     margin-top: 1em;
+
+}
+
+@media (min-width: 768px) {
+    
+    .lista {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
 }
 
